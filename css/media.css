@@ -1,0 +1,109 @@
+/* for lg/xl */
+
+@media (max-width: 1198px) {
+  .homepage {
+    height: 100%;
+    background: cover;
+  }
+  .logo1 {
+    width: 140px;
+    height: auto;
+    padding-top: 20px;
+    margin-left: 20px;
+  }
+
+  .layout {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .items {
+    width: 100%;
+    height: auto;
+  }
+
+  .home {
+    font-size: 120px;
+    padding-top: 100px;
+  }
+
+  .products {
+    font-size: 42px;
+  }
+
+  .about {
+    font-size: 38px;
+  }
+
+  .contact {
+    font-size: 32px;
+  }
+
+    .k,.k1,.k2,.k3{
+    width: 25px;
+    height: 25px;
+  }
+}
+
+/* for sm/md */
+@media (max-width: 990px) {
+  .homepage {
+    height: 100%;
+    background: cover;
+  }
+  .logo1 {
+    width: 120px;
+    margin-left: 10px;
+  }
+
+  .layout {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .name p {
+    font-size: 26px;
+    margin-left: 11px;
+  }
+
+  .home {
+    font-size: 70px;
+    padding-top: 60px;
+  }
+
+  .products {
+    font-size: 32px;
+  }
+
+  .about {
+    font-size: 28px;
+  }
+
+  .contact {
+    font-size: 24px;
+  }
+
+  .k,.k1,.k2,.k3 {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/* for xs */
+@media (max-width: 574px) {
+  .homepage {
+    height: 100%;
+    background: cover;
+  }
+  .home {
+    font-size: 50px;
+  }
+
+  .products,.about,.contact {
+    font-size: 19px;
+  }
+
+    .k,.k1,.k2,.k3 {
+    display: none;
+  }
+}
